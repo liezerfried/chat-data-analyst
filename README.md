@@ -20,7 +20,7 @@ Built on top of a [Pagila](https://github.com/devrimgunduz/pagila) PostgreSQL da
 
 ## What it does
 
-- Ask questions in plain English about the rental business
+- Ask questions in natural language about the rental business
 - The agent inspects the database schema, writes a SELECT query, executes it, and returns the result as a markdown table
 - Every response includes the SQL used — the reasoning is fully transparent
 - Responses stream token by token as they are generated
@@ -89,9 +89,9 @@ The agent follows a strict tool-call sequence on every turn:
 
 The GIF above shows the following question asked to the agent:
 
-> *Who are the top 10 customers by total amount spent?*
+> *What are the most rented film categories?*
 
-The agent fetches the schema, writes a JOIN query across `customer`, `payment`, and `address`, and streams back the ranked table with a plain-English summary.
+The agent fetches the schema, writes a JOIN query across `rental`, `inventory`, `film`, and `category`, and streams back the ranked table with a summary.
 
 ---
 
