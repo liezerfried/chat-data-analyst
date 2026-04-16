@@ -6,15 +6,15 @@ Built on top of a [Pagila](https://github.com/devrimgunduz/pagila) PostgreSQL da
 
 ---
 
-![Demo](assets/demo.gif)
+## Chat Interface
+
+![Chat Interface](assets/empty-ui.png)
 
 ---
 
-## Screenshots
+## Live Demo
 
-| Empty UI | Query result |
-|---|---|
-| ![Empty UI](assets/empty-ui.png) | ![Query result](assets/query-result.png) |
+![Demo](assets/demo.gif)
 
 ---
 
