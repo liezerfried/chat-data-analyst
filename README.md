@@ -20,7 +20,7 @@ Built on top of a [Pagila](https://github.com/devrimgunduz/pagila) PostgreSQL da
 
 ![LM Studio processing](assets/lm-studio.gif)
 
-*Local LLM running via LM Studio — token generation visible in real time.*
+*GPT-OSS 20B running locally via LM Studio — token generation visible in real time.*
 
 ---
 
@@ -84,7 +84,7 @@ The agent follows a strict tool-call sequence on every turn:
 |---|---|
 | Frontend | Next.js 15, React 19, Tailwind CSS 4, Shadcn UI / Radix UI |
 | AI framework | Mastra (`@mastra/core`, `@mastra/memory`, `@mastra/ai-sdk`) |
-| Model | Local LLM via LM Studio (OpenAI-compatible API) |
+| Model | GPT-OSS 20B — running locally via LM Studio (OpenAI-compatible API) |
 | Database | PostgreSQL — Pagila sample dataset |
 | Storage | LibSQL for conversation memory and observability traces |
 | Streaming | Vercel AI SDK (`useChat` + streaming response) |
