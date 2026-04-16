@@ -16,6 +16,12 @@ Built on top of a [Pagila](https://github.com/devrimgunduz/pagila) PostgreSQL da
 
 ![Demo](assets/demo.gif)
 
+## Model Processing (LM Studio)
+
+![LM Studio processing](assets/lm-studio.gif)
+
+*Local LLM running via LM Studio — token generation visible in real time.*
+
 ---
 
 ## What it does
